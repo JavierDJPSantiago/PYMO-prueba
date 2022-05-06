@@ -1,0 +1,98 @@
+body{
+    background: 
+    
+    linear-gradient(
+      270.82deg,
+      rgb(226, 142, 37),
+      rgb(197, 80, 66),
+      rgb(185, 100, 147),
+      rgb(29, 34, 220),
+      rgb(92, 125, 243)
+    );  
+  }
+  
+  
+  
+  
+  main{
+    width: 100%;
+  }
+  
+  
+  .titulo {
+    color: rgb(196, 189, 189);
+    text-align: center;
+    font-weight: 800;
+    font-family: "Filson Soft", Sans-serif;
+  }
+  
+  .formul {
+    margin: 0 20% 0 20%;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  
+  .enviar {
+    text-align: center;
+  }
+  
+  .btn-enviar {
+    height: 32px;
+  
+    background-color:  #E28E25;
+    border: 0.5px solid #E28E25;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "Filson Soft", Sans-serif;
+  }
+  
+  
+  
+  /* ---------  Estilos para individuales ------- */
+  
+  .formulario__label{
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Agora Slab Reg", Sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .formulario__grupo-input{
+    position: relative;
+    font-family: "Agora Slab Reg", Sans-serif;
+  }
+  
+  
+  .formulario__input:focus{
+    border: 3px solid  rgb(45, 49, 187);
+    outline: none;
+    box-shadow: 3px 0px 30 px rgb(163, 163, 163, 0.4)
+  }
+  
+  .form-control {
+    color:black;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 1px solid rgba(255, 255, 255, 0.91) black;
+  }
+  
+  .footer{
+    font-family: "Agora Slab Reg", Sans-serif;
+    color: black;
+  
+  }
+  
+  .navbar{
+    border: silver 10px;
+  }
+  
+  
+  
+  

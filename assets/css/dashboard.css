@@ -1,0 +1,94 @@
+body{
+    font-family: "Agora Slab Reg", Sans-serif;
+    overflow: hidden;
+    font-weight: 300;
+
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(226, 142, 37); 
+    font-family: "Agora Slab Reg", Sans-serif;
+
+
+}
+
+.btn-search{
+    right: 5px;
+    color: none
+}
+
+#sidebar-container{
+    min-height: 100vh;
+    background-color:  rgb(92, 125, 243) ;
+    
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25 rem;
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.btn{
+    border: 0;
+}
+
+.btn-reporte {
+    background-color:  rgb(13, 18, 160);
+    color: white;
+    font-family: "Agora Slab Reg", Sans-serif;
+}
+
+.stat{
+    border-right: 1px solid silver ;
+}
+
+.bg-mix{
+    background: 
+  
+  linear-gradient(
+    180deg,
+    white 50%,
+    rgb(197, 80, 66) 0
+    
+  );  
+  font-family: "Agora Slab Reg", Sans-serif;
+}
+
+.bg-graf{
+    background-color:
+    rgb(197, 80, 66);
+    font-family: "Agora Slab Reg", Sans-serif;
+    /* 
+    rgb(218, 228, 216)
+    ;
+    */
+}
+
+.btn-ver{
+    background-color:  rgb(13, 18, 160);
+}
+
+
+@media (max-widht: 768px){
+    #sidebar-container{
+        display: none
+    }
+
+    .stat{
+        border: 0;
+    }
+}
